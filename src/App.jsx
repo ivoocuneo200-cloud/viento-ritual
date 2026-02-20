@@ -1,3 +1,5 @@
+import { supabase } from "./supabase";
+import { useEffect } from "react";
 import TabsNav from "./TabsNav";
 import React from "react";
 import {
@@ -1078,7 +1080,7 @@ function AdminPanel() {
         </button>
 
         <p style={{ fontSize: 12, opacity: 0.5, marginTop: 12 }}>
-          Clave actual: <b>viento123</b>
+          Clave actual: <b></b>
         </p>
       </div>
     );
@@ -1625,7 +1627,7 @@ function Merch() {
 </div>
 
 <a
-  href="https://www.instagram.com/direct/t/username/?text=Hola%20me%20interesa%20el%20abanico%20Viento%20Ritual"
+  href="https://www.instagram.com/viento.ritual/"
   target="_blank"
   rel="noopener noreferrer"
   style={{ textDecoration: "none" }}
@@ -2045,7 +2047,11 @@ Asi mismo, la producción de eventos musicales en la localidad de Plaza Huincul 
 
 
 export default function App() {
+  
+  
+  
   return (
+    
     <>
       {/* FONDO GLOBAL */}
       <div
