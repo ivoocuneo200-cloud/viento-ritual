@@ -1,4 +1,4 @@
-import { supabase } from "./supabase";
+
 import { useEffect } from "react";
 import TabsNav from "./TabsNav";
 import React from "react";
