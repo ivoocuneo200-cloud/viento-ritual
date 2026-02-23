@@ -349,6 +349,7 @@ function EventDetail() {
 
   const unitPrice = ticket?.price ?? 0;
   const total = unitPrice * quantity;
+  console.log("PRICE REAL:", ticket?.price);
 
   // ✅ max real: 3 o stock del ticket actual
   const maxQty = getMaxQtyForCurrentSale(event);
