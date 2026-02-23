@@ -1080,7 +1080,7 @@ function AdminPanel() {
         </button>
 
         <p style={{ fontSize: 12, opacity: 0.5, marginTop: 12 }}>
-          Clave actual: <b></b>
+          <b></b>
         </p>
       </div>
     );
@@ -1101,17 +1101,7 @@ function AdminPanel() {
       <h1 style={{ fontSize: 30 }}>⚙️ Panel Admin</h1>
 
       {/* ✅ BOTÓN: ESCANEAR QR CON CAMARA */}
-      <button
-        style={styles.purpleBtn}
-        onClick={() => navigate("/admin/scanner")}
-      >
-        📷 Escanear QR
-      </button>
-
-      {/* ✅ PASO C: EXPORTAR CSV */}
-      <button style={styles.greenBtn} onClick={exportTicketsCSV}>
-        📥 Exportar entradas a Excel (CSV)
-      </button>
+      
 
       {/* ✅ PASO B: RESUMEN POR EVENTO */}
       <div style={{ marginTop: 25 }}>
